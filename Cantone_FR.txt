@@ -1,0 +1,7 @@
+1) The system shall provide an exam seat reservations management page
+ to students 
+
+2) The system shall provide an exam dates and reservation deadlines
+ management page to teachers
+
+3) The system shall provide a course creation page to degree course admins
