@@ -1,0 +1,44 @@
+HOMEWORK:
+
+1 - User stories
+    Ogni studente deve consegnare tre US riguardo il suo progetto. Non
+    è consentito collaborare.
+
+2 - Functional requirements
+	Ogni studente deve creare 3 requisiti funzionali del progetto
+	ideato.
+
+3 - Use case diagram
+	Ogni studente deve consegnare un documento PDF contenente uno UC 
+	diagram del suo progetto. Usare almeno 2 includes, 2 excludes, 2 
+	attori primari, 2 attori secondari. Fornire un diagramma UML, 
+	potere utilizzare quello che volete ma in digitale come StarUML o 
+	Draw.io o altro.
+
+4 - Use case internal steps
+	Ogni studente deve consegnare un documento PDF contenente gli steps 
+	di uno UC del suo progetto; minimo 8 steps e 3 extensions.
+
+5 - UI prototypes
+	Prego sottomettere 6 schermate di prototipi di interfaccia della 
+	propria applicazione.
+
+6 - Activity diagram
+	Ogni studente deve fornire un pdf di un activity diagram di uno UC 
+	del suo progetto. L'AD deve necessariamente utilizzare tutti i 
+	formalismi presentati, quindi: decision, merge, fork, join, timer e
+	reference.
+
+7 - Sequence diagram
+	Ogni studente fornisca un SD del suo UC usando almeno 3 chiamate 
+	asincrone, 3 sincrone, 3 create e 3 destroy. Prego evidenziare il 
+	tipo di classe (E,B,C) come nel esempio corretto.
+
+8 - State diagram
+	Ogni studente fornisca il pdf di uno State Diagram con almento 6 
+	stati di un suo UC.
+
+9 - Regression bug
+	Descrivere i 5 elementi di un bug regressivo di vostra scelta e il 
+	suo tipo di cambiamento.
+

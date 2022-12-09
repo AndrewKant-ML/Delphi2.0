@@ -1,0 +1,86 @@
+PROJECT ISSUES:
+
+- cambiare nome all'attore 'admin' -> fatto, ora è CCD
+
+
+
+
+
+USE CASES:
+--STUDENT
+***	1) (?) register (?) to degree course:
+		- take prerequisites test (+external actor(s) grading, e.g. moodle)
+		- verificare se è necessario il pagamento di una rata all'atto di immatricolazione/iscrizione ad un corso di laurea (this can be 
+		  another extension with external actors, e.g. banks)
+		- fill anagraphiacl form with info, documents, id proof, with 'segreteria' as external actor to verify the data
+		
+	2) join subject course (STUB):
+		- check regular degree course subscription status (taxes etc.)
+
+**	3) book reception:
+		- select from a list of joined subject courses && available reception dates
+		- wait for professor's confirmation
+		- add to google calendar or similar
+
+*	4) book exam:
+		- check regular degree course subscription status (taxes etc.)
+		- show bookable exam for the current student {
+			* check regular subject registration
+			* filter by joined subject course && required previously passed exams && open registration
+		  }
+		- confirmation email
+
+--PROFESSOR
+*	1) insert subject course info:
+		- select from a list of subject courses assigned by 'coordinatore del corso di laurea'
+		- wait 'coordinatore del corso di laurea' approval
+	
+	2) insert exam dates and infos:
+		- select from a list of subject courses assigned by 'coordinatore del corso di laurea'
+		
+	3) insert reception dates:
+		- select from a list of subject courses assigned by 'coordinatore del corso di laurea'
+	
+**	4) manage reception requests:
+		- notification from a list of subject courses assigned by 'coordinatore del corso di laurea' on students' requests
+		- add to google calendar or similar
+	
+***	5) insert students' grades:
+		- select from a list of: assigned subject courses, past exam dates with open 'verbale', enrolled students
+		- wait for each student's confirmation || deadline expiration
+		- wait for 'segreteria' protocol confirmation
+		- notification to students and professor
+
+
+--COORDINATORE DEL CORSO DI LAUREA extends PROFESSOR
+	1) assign subject courses to professor:
+		- select from a list of subject courses && professors in the 'dipartimento' (inserted by 'segreteria')
+	
+		
+--SEGRETERIA
+	1) assign professors to (?) 'dipartimento' (?):
+	
+	2) insert subject courses:
+		- select from a list of active 'dipartimenti'
+	
+	3) protocol exams 'verbali':
+		- select from a list of pending exams
+		
+	4) student registration verification:
+		- select from a list of pending verifications
+
+
+--CCD
+	1) create professor account:
+	
+	2) create segreteria account:
+	
+	3) hard reset account password:
+	
+	4) insert pre-requisites tests questions and info:
+	
+	
+		
+		
+		
+		
