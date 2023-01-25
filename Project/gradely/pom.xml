@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>it.uniroma2.dicii.ispw.gradely/it.uniroma2.dicii.ispw.gradely.HelloApplication
+                            <mainClass>it.uniroma2.dicii.ispw.gradely/it.uniroma2.dicii.ispw.gradely.MainApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
