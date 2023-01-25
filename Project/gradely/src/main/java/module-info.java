@@ -5,4 +5,6 @@ module it.uniroma2.dicii.ispw.gradely {
 
     opens it.uniroma2.dicii.ispw.gradely to javafx.fxml;
     exports it.uniroma2.dicii.ispw.gradely;
+    exports it.uniroma2.dicii.ispw.gradely.session_manager;
+    opens it.uniroma2.dicii.ispw.gradely.session_manager to javafx.fxml;
 }
