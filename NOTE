@@ -18,11 +18,11 @@ USE CASES:
 		- check regular degree course subscription status (taxes etc.)
 
 **	3) book reception:
-		- select from a list of professors && available reception dates
+		- select from a list of joined subject courses && available reception dates
 		- wait for professor's confirmation
 		- add to google calendar or similar
 
-*	4) register to exam:
+*	4) book exam:
 		- check regular degree course subscription status (taxes etc.)
 		- show bookable exam for the current student {
 			* check regular subject registration
