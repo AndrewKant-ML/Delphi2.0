@@ -3,28 +3,35 @@ package it.uniroma2.dicii.ispw.gradely.model;
 import java.util.List;
 
 public class User {
-    private String nome;
-    private String cognome;
+    private String name;
+    private String surname;
     private String codiceFiscale;
     private String email;
+    private String password;
+    private List<AbstractRole> roles;
 
-
-    private List<AbstractRole> ruoli;
-
-    public String getNome() {
-        return nome;
+    public User(String name, String surname, String codiceFiscale, String email, String password) {
+        this.name = name;
+        this.surname = surname;
+        this.codiceFiscale = codiceFiscale;
+        this.email = email;
+        this.password = password;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getName() {
+        return name;
     }
 
-    public String getCognome() {
-        return cognome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setCognome(String cognome) {
-        this.cognome = cognome;
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public String getCodiceFiscale() {
@@ -43,11 +50,19 @@ public class User {
         this.email = email;
     }
 
-    public List<AbstractRole> getRuoli() {
-        return ruoli;
+    public String getPassword() {
+        return password;
     }
 
-    public void setRuoli(List<AbstractRole> ruoli) {
-        this.ruoli = ruoli;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public List<AbstractRole> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<AbstractRole> roles) {
+        this.roles = roles;
     }
 }
